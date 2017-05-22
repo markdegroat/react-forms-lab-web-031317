@@ -23,4 +23,16 @@ ReactDOM.render(
   document.getElementById('main')
 );
 
+// ReactDOM.render(
+//   <div>
+//     <h1><pre>TwitterMessage</pre></h1>
+//     <TwitterMessage maxChars={140} />
+//
+//     <h1><pre>LoginForm</pre></h1>
+//     <LoginForm onSubmit={login} />
+//
+//   </div>,
+//   document.getElementById('main')
+// );
+
 require('./test/index-test.js'); // Leave this in!
